@@ -1,0 +1,6 @@
+<view class="invoice">
+  <image class='weizhao' src='/img/weizhaodao_img.png'></image>
+  <view class='invoice_txt'>未找到相应发票信息</view>
+  <button class='invoice_btn'>重新查询</button>
+</view>
+

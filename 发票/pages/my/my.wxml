@@ -1,0 +1,17 @@
+<view class="my_box">
+  <image src='/img/Head_portrait.png' class='img_hread'></image>
+  <view class='my_little'>卡夫卡</view>
+  <view class='my_txt_bg' bindtap='edu_href'>
+    <view class='my_txt_left'>免费额度</view>
+    <view class='my_txt_right'>
+      <image class='my_rg_icon' src='/img/Triangle.png'></image><text>剩余20次</text>
+    </view>
+  </view>
+  <view class='my_txt_bg' bindtap='edu_href1'>
+    <view class='my_txt_left'>发票常识</view>
+    <view class='my_txt_right'>
+      <image class='my_rg_icon' src='/img/Triangle.png'></image>
+    </view>
+  </view>
+</view>
+<view class='my_bg_txt'>高顿教育版权所有</view>

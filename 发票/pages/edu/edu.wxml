@@ -1,0 +1,31 @@
+<view class="mianfei_top">
+  <image src='/img/bolan_03.jpg' class='bolan_bg'></image>
+  <view class='mianfei_top_txt'>当前剩余免费查询额度</view>
+  <view class='mianfei_ci'>20<text>次</text></view>
+</view>
+<view class='mianfei_center claerfix'>
+  <view class="mianfei_center_list {{active==1?'active':''}} fl" bindtap='mianfei_tap'>
+    <view class='yuan_pice'>10元</view>
+    <view class='line_xian'></view>
+    <view class='ci_pice'>800次</view>
+  </view>
+  <view class="mianfei_center_list {{active1==1?'active':''}} fr" bindtap='mianfei_two'>
+    <view class='yuan_pice'>10元</view>
+    <view class='line_xian'></view>
+    <view class='ci_pice'>800次</view>
+  </view>
+</view>
+<view class='mianfei_footer_txt'>
+  <view class='footer_txt'>
+    <text>*</text>次数购买后永久有效，每查询一次消耗一个额度。
+  </view>
+  <view class='footer_txt'>
+    <text>*</text>购买之后，相应费用不予退回。
+  </view>
+</view>
+<view class='mianfei_footer'>
+  <text class='mf_txt'>购买额度获取更多查询次数</text>
+  <button class='mf_btn'>
+    立即购买
+  </button>
+</view>

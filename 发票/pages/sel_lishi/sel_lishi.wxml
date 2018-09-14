@@ -1,0 +1,87 @@
+<view class="invoice_tab">
+  <view class='invoice_tab_list '>
+    我的发票
+  </view>
+  <view class='invoice_tab_list active'>
+    查询历史
+  </view>  
+</view>
+<view class='invoice_body'>
+  <view class='lishi_list'>
+    <view class='lishi_hread'>
+      <image src='/img/icon_time copy.png'></image><text>2018-05-10</text>
+    </view>
+    <view class='lishi_body'>
+      <view class='lishi_body_hread claerfix'>
+        <view class='hread_left'>
+          <view class='body_hread_list'>
+            发票代码<text>123456789012</text>
+          </view>
+          <view class='body_hread_list'>
+            发票代码<text>123456789012</text>
+          </view>
+        </view>
+        <view class='hread_right'>货物运输业增值税专用发票</view>
+      </view>
+      <view class='lishi_body_footer'>
+        <view class='body_footer_left'>开票时间 <text>2018-05-12 14:00:00</text></view>
+        <view class='body_footer_right'>¥329.86</view>
+      </view>
+    </view> 
+  </view>
+  <view class='lishi_list'>
+    <view class='lishi_hread'>
+      <image src='/img/icon_time copy.png'></image><text>2018-05-10</text>
+    </view>
+    <view class='lishi_body'>
+      <view class='lishi_body_hread claerfix'>
+        <view class='hread_left'>
+          <view class='body_hread_list'>
+            发票代码<text>123456789012</text>
+          </view>
+          <view class='body_hread_list'>
+            发票代码<text>123456789012</text>
+          </view>
+        </view>
+        <view class='hread_right'>增值税专票</view>
+      </view>
+      <view class='lishi_body_footer'>
+        <view class='body_footer_left'>开票时间 <text>2018-05-12 14:00:00</text></view>
+        <view class='body_footer_right'>¥329.86</view>
+      </view>
+    </view> 
+  </view>
+  <view class='lishi_list'>
+    <view class='lishi_hread'>
+      <image src='/img/icon_time copy.png'></image><text>2018-05-10</text>
+    </view>
+    <view class='lishi_body'>
+      <view class='lishi_body_hread claerfix'>
+        <view class='hread_left'>
+          <view class='body_hread_list'>
+            发票代码<text>123456789012</text>
+          </view>
+          <view class='body_hread_list'>
+            发票代码<text>123456789012</text>
+          </view>
+        </view>
+        <view class='hread_right'>国税发票</view>
+      </view>
+      <view class='lishi_body_footer'>
+        <view class='body_footer_left'>开票时间 <text>2018-05-12 14:00:00</text></view>
+        <view class='body_footer_right'>¥329.86</view>
+      </view>
+    </view> 
+  </view>
+  <view class='more_none'>
+    没有更多了
+  </view>
+  <view class='more_none'>
+    <image src='/img/Loading.png'></image>加载中…
+  </view>
+<!-- 没有数据 -->
+<view class='no_shuju'>
+  <image src='/img/weizhaodao.png'></image>
+  <view class='no_shuju_txt'>暂无查询历史</view>
+</view> 
+</view>

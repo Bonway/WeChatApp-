@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/fpcs1/fpcs",
+    "pages/fpcs/fpcs",
+    "pages/add/add", 
+    "pages/invoice/invoice",
+    "pages/Invoice_Inquiry/Invoice_Inquiry",
+    "pages/bianji/bianji",
+    "pages/sel_lishi/sel_lishi",
+    "pages/selt_newpage/selt_newpage",
+    "pages/fpcs2/fpcs",
+    "pages/fpcs3/fpcs",
+    "pages/fpcs4/fpcs",
+    "pages/fpcs5/fpcs",
+    "pages/fapiao/fapiao",
+    "pages/edu/edu",
+    "pages/my/my",
+    "pages/selt_invoice/selt_invoice",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#066CB4",
+    "list": [
+      {
+        "selectedIconPath": "img/icon_home_1.png",
+        "iconPath": "img/icon_home_0.png",
+        "pagePath": "pages/index/index",
+        "selectedColor": "#066CB4",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/icon_invoice_1.png",
+        "iconPath": "img/icon_invoice_0.png",
+        "pagePath": "pages/invoice/invoice",
+        "selectedColor": "#066CB4",
+        "text": "发票管理"
+      },
+      {
+        "selectedIconPath": "img/icon_my_1.png",
+        "iconPath": "img/icon_my_0.png",
+        "pagePath": "pages/my/my",
+        "selectedColor": "#066CB4",
+        "text": "我的"
+      }
+    ]
+  }
+}

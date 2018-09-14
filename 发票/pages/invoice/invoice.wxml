@@ -1,0 +1,128 @@
+<view class="invoice_tab">
+  <view class="invoice_tab_list {{active==0?'active':' '}}" bindtap="href_four">
+    我的发票
+  </view>
+  <view class="invoice_tab_list {{active1==0?'active':' '}}" bindtap="href_five">
+    查询历史
+  </view>
+</view>
+<view class="{{showView?'show':'hide'}}">
+  <view class='invoice_body'>
+    <image src='/img/invoice_bg2.png' class='invoice_bg'></image>
+    <image src='/img/icon_ sign.png' class='sign_img'></image>
+    <view class='invoice_body_little'>
+      上海高顿财经教育集团
+    </view>
+    <view class='invoice_body_label'>
+      纳税人识别号
+    </view>
+    <view class='invoice_body_label'>
+      242764238723758
+    </view>
+  </view>
+  <view class='add_invoice' bindtap="href_three">
+    <image src='/img/icon_Addto.png'></image>
+    <text>添加</text>
+  </view>
+</view>
+<!-- 查询历史 -->
+  <scroll-view scroll-y scroll-x="false" class="{{showView_two?'show':'hide'}}" style='height:1400rpx' bindscrolltolower="upper">
+    <view class='invoice_body'>
+      <view wx:for='{{list}}'>
+        <view class='lishi_list'>
+          <view class='lishi_hread'>
+            <image src='/img/icon_time copy.png'></image>
+            <text>2018-05-10</text>
+          </view>
+          <view class='lishi_body'>
+            <view class='lishi_body_hread claerfix'>
+              <view class='hread_left'>
+                <view class='body_hread_list'>
+                  发票代码
+                  <text>123456789012</text>
+                </view>
+                <view class='body_hread_list'>
+                  发票代码
+                  <text>123456789012</text>
+                </view>
+              </view>
+              <view class='hread_right'>货物运输业增值税专用发票</view>
+            </view>
+            <view class='lishi_body_footer'>
+              <view class='body_footer_left'>开票时间
+                <text>2018-05-12 14:00:00</text>
+              </view>
+              <view class='body_footer_right'>¥329.86</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- <view class='lishi_list'>
+        <view class='lishi_hread'>
+          <image src='/img/icon_time copy.png'></image>
+          <text>2018-05-10</text>
+        </view>
+        <view class='lishi_body'>
+          <view class='lishi_body_hread claerfix'>
+            <view class='hread_left'>
+              <view class='body_hread_list'>
+                发票代码
+                <text>123456789012</text>
+              </view>
+              <view class='body_hread_list'>
+                发票代码
+                <text>123456789012</text>
+              </view>
+            </view>
+            <view class='hread_right'>增值税专票</view>
+          </view>
+          <view class='lishi_body_footer'>
+            <view class='body_footer_left'>开票时间
+              <text>2018-05-12 14:00:00</text>
+            </view>
+            <view class='body_footer_right'>¥329.86</view>
+          </view>
+        </view>
+      </view>
+      <view class='lishi_list'>
+        <view class='lishi_hread'>
+          <image src='/img/icon_time copy.png'></image>
+          <text>2018-05-10</text>
+        </view>
+        <view class='lishi_body'>
+          <view class='lishi_body_hread claerfix'>
+            <view class='hread_left'>
+              <view class='body_hread_list'>
+                发票代码
+                <text>123456789012</text>
+              </view>
+              <view class='body_hread_list'>
+                发票代码
+                <text>123456789012</text>
+              </view>
+            </view>
+            <view class='hread_right'>国税发票</view>
+          </view>
+          <view class='lishi_body_footer'>
+            <view class='body_footer_left'>开票时间
+              <text>2018-05-12 14:00:00</text>
+            </view>
+            <view class='body_footer_right'>¥329.86</view>
+          </view>
+        </view>
+      </view> -->
+      <view class="more_none {{show?'show':'hide'}}">
+        没有更多了
+      </view>
+      <view class="more_none {{show?'hide':'show'}}" >
+        <image src='/img/Loading.png'></image>加载中…
+      </view>
+    </view>
+  </scroll-view>
+  <!-- 没有数据 -->
+<view class="invoice_body dis">
+   <view class='no_shuju'>
+    <image src='/img/weizhaodao.png'></image>
+    <view class='no_shuju_txt'>暂无查询历史</view>
+  </view> 
+</view>

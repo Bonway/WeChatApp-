@@ -1,0 +1,10 @@
+<image class="logo_icon" src="/img/logo.png"></image>
+<view class='sao_box' bindtap='poto_btn'>
+  <image src='/img/Scavenging button.png'></image>
+</view>
+ <!-- <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px; display:none;"></camera>  -->
+
+<!-- <button class='sao_btn' bindtap=""></button> -->
+
+<button class='shuru_btn' bindtap="href">输入发票码查询</button>
+<button class='login_btn' open-type="getUserInfo" >登录</button>

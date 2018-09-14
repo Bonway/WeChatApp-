@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/redresults/redresults",
+    "pages/Webviews/WebViews"
+  ],
+  "subPackages": [
+    {
+      "root": "packageList",
+      "pages": [
+        "pages/details/details",
+        "pages/calmethods/calmethods",
+        "pages/taxlist/taxlist"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E35E43",
+    "navigationBarTitleText": " 高顿新个税计算",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackground": "linear-gradient(-46deg, #689FF5 0%, #4E8BEC 100%);"
+  }
+}

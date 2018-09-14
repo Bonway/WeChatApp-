@@ -1,0 +1,42 @@
+<view class="invoice">
+  <view class='invoice_input claerfix'>
+    <text>企业名称/发票抬头</text>
+    <input class='invoice_input_new' placeholder-class="phcolor" bindinput='blur' type='text' placeholder='请输入'></input>
+  </view>
+ <view class='invoice_input claerfix'>
+    <text>纳税人识别号</text>
+    <input class='invoice_input_new' placeholder-class="phcolor" bindinput='blur' type='text' placeholder='请输入'></input>
+  </view>
+ <view class='invoice_input claerfix'>
+    <text>开户银行</text>
+    <input class='invoice_input_new' placeholder-class="phcolor" bindinput='blur' type='text' placeholder='请输入'></input>
+  </view>
+ <view class='invoice_input claerfix'>
+    <text>银行账号</text>
+    <input class='invoice_input_new' placeholder-class="phcolor" bindinput='blur' type='text' placeholder='请输入'></input>
+  </view>
+ <view class='invoice_input claerfix'>
+    <text>地址</text>
+    <input class='invoice_input_new' placeholder-class="phcolor" bindinput='blur' type='text' placeholder='请输入'></input>
+  </view>
+ <view class='invoice_input claerfix'>
+    <text>电话</text>
+    <input class='invoice_input_new' placeholder-class="phcolor" bindinput='blur' type='text' placeholder='请输入'></input>
+  </view>
+  <button class='invoice_btn'>保存</button>
+</view>
+<image src='/img/del_icon.png' class='remove_icon' bindtap='remove_btn'></image>
+<view class="zhezhaocen {{showView_two==1?'show':''}}" bindtap='close_btn'></view>
+<view class="pop_kuang_box {{showView_two==1?'show':''}}">
+  <view class='txt_line'>
+    您将删除此发票
+  </view>
+  <view class='pop_footer'>
+    <view class='pop_footer_list'>
+      取消
+    </view>
+    <view class='pop_footer_list active'>
+      确认
+    </view>
+  </view>
+</view>

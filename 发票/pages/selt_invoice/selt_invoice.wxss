@@ -1,0 +1,27 @@
+page{
+  background: #f9f9f9;
+}
+.invoice{
+  text-align: center;
+  padding-top: 228rpx;
+}
+.weizhao{
+  width: 136rpx;
+  height: 150rpx;
+}
+.invoice_txt{
+  color: #333;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.invoice_btn{
+  background-image: linear-gradient(90deg, #95EDFD 0%, #008CEE 100%);
+  box-shadow: 0 2px 12px 0 rgba(4,142,239,0.40);
+  border-radius: 100px;
+  color: #fff;
+  width: 282rpx;
+  height: 88rpx;
+  margin-top: 94rpx;
+  font-size: 28rpx;
+  line-height: 88rpx;
+}

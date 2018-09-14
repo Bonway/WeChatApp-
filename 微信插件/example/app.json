@@ -1,0 +1,63 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/about/index",
+        "pages/actionsheet/index",
+        "pages/animation-group/index",
+        "pages/backdrop/index",
+        "pages/badge/index",
+        "pages/barcode/index",
+        "pages/card/index",
+        "pages/checkbox/index",
+        "pages/countdown/index",
+        "pages/countup/index",
+        "pages/dialog/index",
+        "pages/floating-button/index",
+        "pages/gallery/index",
+        "pages/grid/index",
+        "pages/input-number/index",
+        "pages/keyboard/index",
+        "pages/list/index",
+        "pages/loading/index",
+        "pages/media/index",
+        "pages/notification/index",
+        "pages/prompt/index",
+        "pages/qrcode/index",
+        "pages/radio/index",
+        "pages/rater/index",
+        "pages/refresher/index",
+        "pages/spin/index",
+        "pages/switch/index",
+        "pages/tag/index",
+        "pages/toast/index",
+        "pages/toptips/index",
+        "pages/vcode/index",
+        "pages/white-space/index",
+        "pages/wing-blank/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#f7f7f8",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Wux",
+        "backgroundColor": "#efeff4",
+        "backgroundTextStyle": "dark"
+    },
+    "tabBar": {
+        "color": "#888888",
+        "selectedColor": "#04BE02",
+        "borderStyle": "white",
+        "backgroundColor": "#f7f7f8",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "assets/images/iconfont-demo.png",
+            "selectedIconPath": "assets/images/iconfont-demo-active.png",
+            "text": "Demo"
+        }, {
+            "pagePath": "pages/about/index",
+            "iconPath": "assets/images/iconfont-about.png",
+            "selectedIconPath": "assets/images/iconfont-about-active.png",
+            "text": "About"
+        }]
+    },
+    "debug": true
+}

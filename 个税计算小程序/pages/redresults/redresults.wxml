@@ -1,0 +1,56 @@
+<!--pages/redresults/redresults.wxml-->
+ <scroll-view scroll-y throttle="{{true}}" class="{{isIphoneX ? 'ResultsBoxIphoneX':'ResultsBox'}}"  lower-threshold='50' bindscrolltolower="GoLower" >
+ <!-- lower-threshold='50' -->
+ <!-- <view  class="{{isIphoneX ? 'ResultsBoxIphoneX':'ResultsBox'}}"> -->
+ <view id="RedTOP" class="{{isIphoneX ? 'RedTop RedTopHeightIphoneX':'RedTop RedTopHeight'}}">
+    <view class='ResultShare'>
+     <view class='ShareContainer'>
+      <view class="YearStyle"> 
+        <view class="SaveMoney">￥{{Resultobj.YearTaxSave}}</view>
+        <view class='EachYear'>每年</view>
+      </view>
+        <view  class='BtnStyle'>
+        <button class="SaveBtn" bindtap="SaveCanvas">保存图片至手机</button>
+        </view> 
+     </view>
+      </view>
+  </view>
+ <view id="RedBOTTOM" class="{{isIphoneX ? 'RedBottom RedBottomHeightIphoneX':'RedBottom RedBottomHeight'}}">                  
+         <view class="TaxTurnIn">
+                 <view class="TurnInBox">
+                   <view >当前应纳个税</view>
+                   <view class="Money">{{Resultobj.oldTurn}}元</view>
+                </view>
+                <view class="TurnInBox">
+                   <view >调整后应纳个税</view>
+                   <view class="Money">{{Resultobj.newTurn}}元</view>
+                </view>
+         </view>
+         <view class="TaxSave">
+                <view class="YearSave">每年累计少缴纳（元）</view>
+                <view class="YearSaveMoney">{{Resultobj.YearTaxSave}}</view>
+         </view>
+         <view class="TaxResult">
+           <view class="MonthSave">
+            <view>每月可少交个税</view>
+            <view class="MonthSaveMoney">{{Resultobj.MonthTaxSave}}元</view>
+           </view>
+           <view class="ShowWords">
+             <view wx:if="{{'Resultobj.YearTaxSave' !== 0}}"class="ShowTitles">新个税一年节省的钱,至少可以：</view>
+             <view class="Showcontents">{{RandomResults.title}}</view> 
+             <!-- <view style="color:#8C62FF;">{{RandomResults.Content}}</view>  -->
+            </view>
+          </view>
+         <view class="Btns">
+             <button class='ShareBtn' open-type='share'>分享</button>
+             <button class='ReCreate' bindtap="ReCreate">重算</button>
+         </view> 
+  <!-- </view> -->
+ <!-- </view> -->
+</view>  
+</scroll-view>
+<!-- </view> -->
+ <view class='CanvasStyle'>
+   <canvas  class="CanvasWidth"canvas-id="mycanvas"/>
+   </view>
+ 

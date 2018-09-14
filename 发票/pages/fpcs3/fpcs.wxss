@@ -1,0 +1,28 @@
+page{
+  background: #f9f9f9;
+}
+.fp_box{
+  padding: 20rpx 40rpx 0 40rpx;
+}
+.cs_box{
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  border-radius: 8px;
+  width: 100%;
+  padding: 40rpx 30rpx 88rpx 30rpx;
+  box-sizing: border-box;
+}
+.cs_box_little{
+  font-size: 36rpx;
+  color: #333333;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.cs_box_duan{
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 40rpx;
+  margin-bottom: 40rpx;
+  text-indent: 2em;
+}

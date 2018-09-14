@@ -1,0 +1,38 @@
+.logo_icon{
+  width: 326rpx;
+  height: 112rpx;
+  margin-top: 80rpx;
+  margin-left: 212rpx;
+}
+.sao_box{
+  width: 506rpx;
+  height: 506rpx;
+  margin: 58rpx auto;
+}
+.sao_box image{
+  width: 506rpx;
+  height: 506rpx;
+}
+.shuru_btn{
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(4,142,239,0.20);
+  border-radius: 100px;
+  width: 442rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 32rpx;
+  color: #0076BD;
+  margin-top: 80rpx;
+}
+
+.shuru_btn{
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(4,142,239,0.20);
+  border-radius: 100px;
+  width: 442rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 32rpx;
+  color: #0076BD;
+  margin-top: 120rpx;
+}

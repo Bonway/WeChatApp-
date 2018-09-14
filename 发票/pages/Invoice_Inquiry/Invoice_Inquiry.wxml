@@ -1,0 +1,30 @@
+<view class="invoice">
+  <view class='invoice_input'>
+    <text>发票代码</text>
+    <input class='invoice_input_new' placeholder-class="phcolor" bindinput='blur' bindblur='yanzhen'  type='number' placeholder='请输入10或12位发票代码'></input>
+  </view>
+  <view class='invoice_input'>
+    <text>发票号码</text>
+    <input class='invoice_input_new' placeholder-class="phcolor" bindinput='blur1' bindblur='yanzhen1' type='number' placeholder='请输入8位发票号码'></input>
+  </view>
+  <view class='invoice_input'>
+    <text>开票日期</text>
+    <picker mode="date"  start="1978-01-01" end="2019-1-23" bindchange="blur2">  
+      <input class='invoice_input_new' placeholder-class="phcolor" value="{{blur_zero2}}" bindinput='blur2' type='text' placeholder='2018-05-11' disabled></input> 
+    </picker>  
+  </view>
+  <image src='{{image_btn}}' bindtap="href_two" class='add_buttom'></image>
+</view>
+<view class='bai_zhezhaocen dis'></view>
+<view class='no_wanlou dis'>
+  <image src='/img/Nonetwork.png'></image>
+  <view class='no_wanlou_txt'>您的网络好像不行了</view>
+</view>
+<!-- 发票代码输入错误 -->
+<view class="top_hen_little {{dis==0?'dis':''}}">
+  发票代码输入错误
+</view>
+<!-- 发票号码输入错误 -->
+<view class="top_hen_little {{dis1?'dis':''}}">
+  发票号码输入错误
+</view>

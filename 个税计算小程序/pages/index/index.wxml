@@ -1,0 +1,106 @@
+	<view class="container" >
+     <view wx:if="{{BoxShowing}}" class="showingBox">
+       <canvas  class="showingPic" canvas-id="showingPic"/> 
+       <!-- class="{{isIphone5 ? 'showingPicInphone5':'showingPic'}}" -->
+       <view class='showingBtn'bindtap="CloseShowbox"></view>
+     </view>
+       <view class="TaxContent">
+        	<view class="tax">
+            	<!-- <view class="top">
+                    <view class="page-title">新个税计算</view>
+                </view> -->     
+                <view class="tax-h">
+                    <view class="tax-cont">
+                        <view class="tax-option">
+                        <view class="Blank15"></view>
+                        <view class="ProType">
+                            <a href="javascript:;" class="lft current">
+                                <span>
+                                    <view class="{{TaxType?'TypeSelected':'Typenormal'}}" bindtap="ProSelect">专业版</view> 
+                           <view wx:if="{{TaxType}}" class='TypeUnderline'></view>
+                                </span>      
+                            </a>
+                            </view>
+                            <view class="Blank20"></view>
+                            <view  class="EasyType">
+                            <a href="javascript:;" class="rgt">
+                                <span>
+                                    <view class="{{TaxType?'Typenormal':'TypeSelected'}}" bindtap="EasySelect">精简版</view> 
+                                    <view wx:if="{{!TaxType}}" class='TypeUnderline'></view>
+                                </span>      
+                            </a>
+                            </view>
+                            <view class="Blank15"></view>
+                        </view>
+                        <view class="tax-box">
+                            <view>
+                                <view class="TaxInput">
+                                    <label class="TaxTitle">月收入</label>
+                                    <input class="XInput" maxlength="10" type="number" bindinput="bindXInput" value="{{XInput}}" placeholder="请输入当前收入"/>                                
+                                </view>
+                                <li class="TaxInput">
+                                    <label class="TaxTitle">起征点</label>
+                                    <view  class="threshold">5000</view>
+                                </li>
+                                <view class="TaxInput">
+                                    <label class="TaxTitle">抵扣(选填)</label>
+                                    <input class="JInput" maxlength="10" type="number" bindinput="bindJInput" value="{{JInput}}" placeholder="请输入抵扣额度"/>                                
+                                </view>
+                                 <view class="TaxInput" wx:if="{{!TaxType}}">
+                                    <label class="TaxTitle">五险一金(选填)</label>
+                                    <input class="KInput" maxlength="10" type="number" bindinput="bindKInput" value="{{KInput}}" placeholder="请输入您每月实缴五险一金" bindfocus="focuse1"/>                                
+                                </view>
+                                <view class="TaxInput" wx:if="{{TaxType}}">
+                                    <label class="TaxTitle">社保基数</label>
+                                   <input class="E1Input" disabled='{{!SocailSelected}}'  maxlength="10" type="number" value="{{e1Input}}" 
+                                   focus="{{Socialfocus}}"bindinput="binde1Input" placeholder="请输入社保基数" bindfocus="focuse2"/>
+                                    <button class="{{SocailSelected?'defineBtnSelected':'defineBtn'}}"  bindtap="SocailDefine">自定义</button>                                
+                                </view>
+                                <view class="TaxInput" wx:if="{{TaxType}}">
+                                    <label class="TaxTitle">公积金基数</label>
+                                    <input  class="E2Input" maxlength="10" type="number" bindinput="binde2Input" value="{{e2Input}}" focus="{{Housefocus}}" 
+                                    disabled='{{!HouseSelected}}' placeholder="请输入公积金基数"/>
+                                    <button class="{{HouseSelected?'defineBtnSelected':'defineBtn'}}" bindtap="HouseDefine">自定义</button>                                
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="introduce">
+                	<view class="DetailText">*说明：计算结果仅供参考；由财经教育品牌 高顿 提供技术支持</view>
+                	<view class="DetailList">
+                  <view bindtap='taxlist'>个税调整前后纳税额参照表</view>|
+                  <view bindtap='calmethods'>计算方法</view>|
+                  <view bindtap='details'>获取更多明细</view>
+                  </view>
+                </view>
+            <view class="{{isIphoneX ? 'TaxShareIphoneX':'TaxShare'}}">
+            <button class='BookAdvice'  bindtap="showDialogBtn"></button> 
+            <button class="IconShare" bindtap="indexShare" open-type="share"></button>
+            <!--弹窗-->
+            <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+            <view class="modal-dialog" wx:if="{{showModal}}">
+              <view class="modal-title">回复"1"获取升职加薪秘籍</view>
+              <view class="modal-footer">
+                <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view>
+                <view class="btn-confirm"><button open-type="contact" class="contact">前往获取</button></view>
+              </view>
+            </view>
+            </view>
+                    <view class="{{isIphoneX?'tax-btnIphoneX':'tax-btn'}}">
+                    <button class="{{BtnResults?'ReCreateBtn':'ReCreateDisable'}}" bindtap="ClearAll">重置</button>
+                    <button class="{{BtnResults?'ResultBtn':'ResultBtnDisable'}}"bindtap="CheckResults" >            查询结果</button>
+                </view>
+        </view>
+
+        <view class="banner-box">
+            <swiper class="swiper"  autoplay="true" interval="5000" duration="1000" current="{{swiperCurrent}}" bindchange="swiperChange">  
+              <block wx:for="{{imgUrls}}" >  
+                <swiper-item>
+                   <image src="{{item}}" class="slide-image" width="100%" height="400" bindtap="click_swip"/>
+                </swiper-item>
+              </block>  
+           </swiper>  
+        </view>
+ </view>

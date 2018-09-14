@@ -1,0 +1,138 @@
+page{
+  background: #f9f9f9;
+}
+.bolan_bg{
+  width: 670rpx;
+  height: 103rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.mianfei_top_txt{
+  font-size: 28rpx;
+  color: #999999;
+  width: 100%;
+  margin-top: 34rpx;
+  text-align: center;
+}
+.mianfei_ci{
+  margin-top: 30rpx;
+  font-size: 80rpx;
+  line-height: 80rpx;
+  color: #333;
+  text-align: center;
+  width: 100%;
+  z-index: 91;
+  position: relative
+}
+.mianfei_ci text{
+  font-size: 32rpx;
+  color: #999999;
+}
+.mianfei_top{
+  width: 670rpx;
+  height: 240rpx;
+  margin-left: 40rpx;
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  border-radius: 8px;
+  margin-top: 30rpx;
+  overflow: hidden;
+  position: relative;
+}
+.mianfei_center{
+  margin-top: 120rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.mianfei_center_list{
+  width: 320rpx;
+  height: 140rpx;
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  border-radius: 100px;
+  position: relative;
+  color: #333
+}
+.mianfei_center_list.active{
+  background-image: linear-gradient(90deg, #95EDFD 0%, #008CEE 100%);
+  box-shadow: 0 2px 12px 0 rgba(4,142,239,0.40);
+  border-radius: 100px;
+  color: #fff;
+}
+.yuan_pice{
+  width: 50%;
+  padding-left: 58rpx;
+  position: absolute;
+  top: 28rpx;
+}
+.line_xian{
+  width: 2px;
+  opacity: 0.1;
+  transform: rotate(45deg);
+  background: #000000;
+  height: 120rpx;
+  position: absolute;
+  left: 165rpx;
+  margin-top: 10rpx;
+}
+.ci_pice{
+   width: 50%;
+  padding-right: 58rpx;
+  position: absolute;
+  bottom: 28rpx;
+  right: 0;
+  text-align: right;
+  font-size: 28rpx;
+}
+.mianfei_footer_txt{
+  margin-top: 120rpx;
+  padding: 0 40rpx;
+}
+.footer_txt{
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #3F3F3F;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+.footer_txt text{
+  color: #FF5B5B;
+  margin-right: 10rpx;
+}
+.mianfei_footer{
+  height: 96rpx;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  line-height: 96rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+}
+.mf_txt{
+  font-size: 28rpx;
+  color: #333333;
+  letter-spacing: 0;
+}
+.mf_btn{
+  float: right;
+  width: 288rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  color: #FFf;
+  background: #FF962F;
+  border-radius: 0;
+  font-size: 32rpx;
+}

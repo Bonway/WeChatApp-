@@ -1,0 +1,181 @@
+page{
+  background: #f9f9f9;
+}
+.container{
+  background: #f9f9f9;
+  height: 100%;
+  width: 100%;
+}
+.invoice{
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 670rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40rpx;
+  padding: 10rpx 40rpx 100rpx 40rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.invoice_input{
+  border-bottom: 1px #ddd solid;
+  padding-top: 20rpx;
+}
+.invoice_input text{
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
+  display: inline-block;
+  padding-left: 21rpx;
+  float: left;
+  box-sizing: border-box;
+}
+.invoice_input_new{
+  font-size: 28rpx;
+  color: #0076BD;
+  float: left;
+  width: 100%;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding-left: 21rpx;
+  box-sizing: border-box;
+}
+.add_buttom{
+  width: 330rpx;
+  height: 136rpx;
+  margin-left: -165rpx;
+  position: absolute;
+  bottom: -68rpx;
+  left: 50%;
+}
+.bai_zhezhaocen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.04);
+  z-index: 89;
+}
+.no_wanlou{
+  width: 360rpx;
+  height: 360rpx;
+  position: fixed;
+  top: 50%;
+  margin-top: -180rpx;
+  left: 50%;
+  margin-left: -180rpx;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  z-index: 90;
+  text-align: center;
+  padding-top: 86rpx;
+  box-sizing: border-box;
+}
+.no_wanlou image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-bottom: 40rpx;
+}
+.no_wanlou_txt{
+  font-size: 28rpx;
+  color: #fff;
+}
+.phcolor{
+  color: #0076BD;
+}
+.top_hen_little{
+  height: 72rpx;
+  width: 100%;
+  background: #ff5b5b;
+  color: #fff;
+  text-align: center;
+  line-height: 72rpx;
+  position: fixed;
+  font-size: 28rpx;
+  top: 0;
+  left: 0;
+}
+.invoice_btn{
+  background-image: linear-gradient(90deg, #95EDFD 0%, #008CEE 100%);
+  box-shadow: 0 2px 12px 0 rgba(4,142,239,0.40);
+  border-radius: 100px;
+  color: #fff;
+  width: 282rpx;
+  height: 88rpx;
+  margin-top: 94rpx;
+  font-size: 28rpx;
+  line-height: 88rpx;
+  position: absolute;
+  bottom: -44rpx;
+  left: 50%;
+  margin-left: -141rpx;
+}
+.remove_icon{
+  width: 108rpx;
+  height: 108rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.pop_kuang_box{
+  width: 540rpx;
+  height: 320rpx;
+  background: #fff;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -270rpx;
+  margin-top: -160rpx;
+  z-index: 90;
+  display: none;
+}
+.txt_line{
+  line-height: 232rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #333;
+}
+.pop_footer{
+  height: 89rpx;
+  border-top: 1px #cfd3d3 solid;
+  width: 100%;
+  position: relative;
+}
+.pop_footer:after{
+  position: absolute;
+  left: 50%;
+  width: 2rpx;
+  height: 100%;
+  background: #cfd3d3;
+  content: " ";
+  display: block;
+}
+.pop_footer_list{
+  width: 50%;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  color: #666;
+  text-align: center;
+  float: left;
+}
+.pop_footer_list.active{
+  color: #4283ea;
+}
+.zhezhaocen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 89;
+  display: none;
+}
+.show{
+  display: block;
+}

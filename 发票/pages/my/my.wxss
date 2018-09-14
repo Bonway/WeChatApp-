@@ -1,0 +1,60 @@
+.my_box{
+  width: 670rpx;
+  height: 560rpx;
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  border-radius: 8px;
+  margin-top: 160rpx;
+  margin-left: 40rpx;
+  text-align: center;
+}
+.img_hread{
+  width: 160rpx;
+  height: 160rpx;
+  margin-top: -100rpx;
+}
+.my_little{
+  font-size: 44rpx;
+  color: #0076BD;
+  letter-spacing: 0;
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+}
+.my_txt_bg{
+  background-image: linear-gradient(90deg, #95EDFD 0%, #008CEE 100%);
+  box-shadow: 0 2px 12px 0 rgba(4,142,239,0.40);
+  border-radius: 100px;
+  width: 574rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 0 auto;
+  padding: 0 60rpx;
+  box-sizing: border-box;
+  margin-bottom: 40rpx;
+}
+.my_txt_left{
+  float: left;
+  font-size: 32rpx;
+color: #FFFFFF;
+}
+.my_txt_right image{
+  float: right;
+  width: 16rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-top: 36rpx;
+}
+.my_txt_right text{
+  float: right;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  margin-right: 18rpx;
+}
+.my_bg_txt{
+  position: fixed;
+  bottom: 60rpx;
+  width: 100%;
+  text-align: center;
+  font-size: 24rpx;
+  color: #CCCCCC;
+}

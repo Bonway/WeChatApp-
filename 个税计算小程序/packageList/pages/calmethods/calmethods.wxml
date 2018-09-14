@@ -1,0 +1,6 @@
+<!--pages/calmethods/calmethods.wxml-->
+<view class='container'>
+<view class='calmethods'>
+ <view class='calPic'></view>
+</view>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/taxlist/taxlist.wxml-->
+<view class='taxlist'>
+  <view class='taxlistContainer'></view>
+</view>

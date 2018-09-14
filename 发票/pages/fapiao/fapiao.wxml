@@ -1,0 +1,26 @@
+<view class="fp_box">
+  <view class='fp_box_list' bindtap='info_href'>
+    增值税发票的领用手续
+    <image src='/img/Group.png' class='fp_right_icon'></image>
+  </view>
+  <view class='fp_box_list' bindtap='info_href1'>
+    发票开具
+    <image src='/img/Group.png' class='fp_right_icon'></image>
+  </view>
+  <view class='fp_box_list' bindtap='info_href2'>
+    发票保管
+    <image src='/img/Group.png' class='fp_right_icon'></image>
+  </view>
+  <view class='fp_box_list' bindtap='info_href3'>
+    发票取得　
+    <image src='/img/Group.png' class='fp_right_icon'></image>
+  </view>
+  <view class='fp_box_list' bindtap='info_href4'>
+    增值税专用发票的特殊规定
+    <image src='/img/Group.png' class='fp_right_icon'></image>
+  </view>
+  <view class='fp_box_list' bindtap='info_href5'>
+    税务机关代开发票的程序
+    <image src='/img/Group.png' class='fp_right_icon'></image>
+  </view>
+</view>

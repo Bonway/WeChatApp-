@@ -1,0 +1,56 @@
+<view class="invoice">
+  <image src='/img/invoice_bg1.png'></image>
+  <view class='invoice_input claerfix'>
+    <text class='little'>发票代码</text>
+    <text class='invoice_input_new'>1234567890</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>发票号码</text>
+    <text class='invoice_input_new'>1234567890</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>发票类型</text>
+    <text class='invoice_input_new'>货物运输业增值税专用发票</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>开票时间</text>
+    <text class='invoice_input_new'>2018-05-12</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>校验码</text>
+    <text class='invoice_input_new '>2357982</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>购方名称</text>
+    <text class='invoice_input_new'>上海高顿财经教育集团</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little line-height20'>购方纳税人识别号</text>
+    <text class='invoice_input_new new_lineheight'>2144861726</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>购方银行账号</text>
+    <text class='invoice_input_new new_lineheight'>62144861726432</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>销方名称</text>
+    <text class='invoice_input_new'>上海高顿财经教育集团</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>销方银行账号</text>
+    <text class='invoice_input_new'>62144861726432</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>价税合计</text>
+    <text class='invoice_input_new red'>¥18744.00</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>税额</text>
+    <text class='invoice_input_new red'>¥12332.88</text>
+  </view>
+  <view class='invoice_input claerfix'>
+    <text class='little'>不含税价（金额）</text>
+    <text class='invoice_input_new red new_lineheight'>¥21312.66</text>
+  </view>
+</view>
+

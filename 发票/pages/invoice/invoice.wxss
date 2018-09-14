@@ -1,0 +1,221 @@
+page{
+  background: #f8f8f8;
+  overflow-x: hidden;
+}
+.invoice_tab{
+  height: 88rpx;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: 80;
+}
+.invoice_tab_list{
+  width: 50%;
+  float: left;
+  position: relative;
+  text-align: center;
+  font-size: 28rpx;
+  color: #999;
+  line-height: 88rpx;
+}
+.invoice_tab_list.active{
+  color: #0076BD;
+}
+.invoice_tab_list.active::after{
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 6rpx;
+  background: #0076BD;
+  left: 50%;
+  width: 80rpx;
+  margin-left: -40rpx;
+  bottom: 0rpx;
+}
+.invoice_body{
+  position: relative;
+  padding-top: 88rpx;
+  padding-left: 16rpx;
+  padding-right: 16rpx;
+  text-align: center;
+  width: auto;
+}
+.invoice_body image.invoice_bg{
+  position: absolute;
+  width: 718rpx;
+  height: 438rpx;
+  z-index: -1;
+  left: 16rpx;
+}
+.invoice_body image.sign_img{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 70rpx;
+}
+.invoice_body_little{
+  margin-top: 35rpx;
+  color: #333;
+  font-size: 36rpx;
+  margin-bottom: 35rpx;
+  line-height: 36rpx;
+}
+.invoice_body_label{
+  color: #333;
+  font-size: 28rpx;
+  line-height: 36rpx;
+}
+.add_invoice{
+  width: 178rpx;
+  height: 200rpx;
+  position: fixed;
+  bottom: 45rpx;
+  left: 50%;
+  margin-left: -89rpx;
+}
+.add_invoice image{
+  width: 176rpx;
+  height: 176rpx;
+}
+.add_invoice text{
+  color: #999;
+  font-size: 28rpx;
+  margin-top: -35rpx;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.lishi_list .lishi_hread{
+  height: 92rpx;
+  width: 100%;
+  line-height: 92rpx;
+  text-align: left;
+}
+.lishi_list{
+  margin-bottom: 20rpx;
+  margin-left: 24rpx;
+}
+.lishi_list .lishi_hread image{
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 20rpx;
+  float: left;
+  margin-top: 31rpx;
+  margin-left: 20rpx;
+}
+.lishi_hread text{
+  font-size: 28rpx;
+  color: #999999;
+  letter-spacing: 0;
+  float: left;
+  line-height: 92rpx;
+  display: inline-block;
+}
+.lishi_body{
+  width: 670rpx;
+  height: 200rpx;
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  border-radius: 4px;
+}
+.lishi_body_hread{
+  padding: 30rpx 30rpx 30rpx 30rpx;
+  border-bottom: 1px #DDDDDD dashed;
+}
+.hread_left{
+  width: 430rpx;
+  text-align: left;
+  position: relative;
+  float: left;
+}
+.body_hread_list{
+  font-size: 28rpx;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  margin-bottom: 10rpx
+}
+.body_hread_list text{
+  font-size: 28rpx;
+  color: #0076BD;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  margin-left: 10rpx;
+}
+.hread_left::after{
+  height: 60rpx;
+  width: 1px;
+  content: ' ';
+  display: block;
+  right: 0;
+  top: 0rpx;
+  background: #EEEEEE;
+  position: absolute;
+}
+.hread_right{
+  width: 170rpx;
+  float: right;
+  color: #FFA2A2;
+font-size: 24rpx;text-align: left;
+}
+.lishi_body_footer{
+  padding: 20rpx 30rpx;
+}
+.body_footer_left{
+  color: #333;
+  font-size: 24rpx;
+  text-align: left;
+  float: left;
+}
+.body_footer_left text{
+  font-size: 24rpx;
+  color: #666666;
+  letter-spacing: 0;
+  margin-left: 10rpx;
+}
+.body_footer_right{
+  font-size: 28rpx;
+  color: #FF5B5B;
+  letter-spacing: 0;
+  float: right;
+
+}
+.more_none{
+  font-size: 28rpx;
+color: #999999;
+letter-spacing: 0;
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 50rpx;
+  position: relative;
+}
+.more_none image{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -20rpx;
+  left: 50%;
+  margin-left: -115rpx;
+}
+.no_shuju image{
+  width: 138rpx;
+  height: 118rpx;
+  margin-top: 230rpx;
+}
+.no_shuju_txt{
+  width: 100%;
+font-size: 28rpx;
+color: #333333;
+margin-top: 40rpx;
+}
+.show{
+  display: show;
+}
+.hide{
+  display: none;
+}

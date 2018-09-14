@@ -1,0 +1,25 @@
+page{
+  background: #f9f9f9;
+}
+.fp_box{
+  padding: 20rpx 40rpx 0 40rpx;
+}
+.fp_box_list{
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.04);
+  border-radius: 4px;
+  width: 100%;
+  height: 100rpx;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  font-size: 32rpx;
+  color: #333333;
+  line-height: 100rpx;
+  margin-bottom: 20rpx;
+}
+.fp_right_icon{
+  width: 16rpx;
+  height: 28rpx;
+  float: right;
+  margin-top: 36rpx;
+}
